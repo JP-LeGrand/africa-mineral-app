@@ -1,0 +1,232 @@
+<div
+    class="feedback-area bg-image pt-100 pb-70"
+    *ngFor="let Content of bgImage;" style="background-image: url({{Content.img}});"
+    [ngClass]="{'d-none': router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-7'}"
+>
+    <div class="container">
+        <div class="section-title">
+            <h2><span>Trusted Customer Feedback</span></h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-feedback-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                    <h3>Jasica Lora <span>- TV Model</span></h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-feedback-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                    <h3>David Conway <span>- Developer</span></h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-feedback-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                    <h3>Joe Root <span>- Designer</span></h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- This section for Home Demo - 4 -->
+<div
+    class="crafts-feedback-area pt-100 pb-100 d-none"
+    [ngClass]="{'d-block': router.url === '/index-4' || router.url === '/index-5'}"
+>
+    <div class="container">
+        <div class="section-title style-with-image">
+            <h2>Trusted Customer Feedback</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
+        </div>
+        <div class="crafts-feedback-slides">
+            <owl-carousel-o [options]="craftsFeedbackSlides">
+                <ng-template carouselSlide>
+                    <div class="single-feedback-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                        <h3>Jasica Lora <span>- TV Model</span></h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-feedback-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                        <h3>David Conway <span>- Developer</span></h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-feedback-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                        <h3>Joe Root <span>- Designer</span></h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-feedback-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                        <h3>Jasica Lora <span>- TV Model</span></h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-feedback-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                        <h3>David Conway <span>- Developer</span></h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-feedback-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipiscing.</p>
+                        <h3>Joe Root <span>- Designer</span></h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+    </div>
+</div>
+
+<!-- This section for Home Demo - 7 -->
+<div
+    class="customer-feedback-area pb-100 d-none"
+    [ngClass]="{'d-block': router.url === '/index-7'}"
+>
+    <div class="container">
+        <div class="section-heading-title">
+            <h2>Trusted Customer Feedback</h2>
+        </div>
+        <div class="customer-feedback-slides">
+            <owl-carousel-o [options]="customerFeedbackSlides">
+                <ng-template carouselSlide>
+                    <div class="customer-feedback-card">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="feedback-image">
+                                    <img src="assets/img/home-seven/feedback/feedback1.jpg" class="rounded-circle" alt="image">
+                                    <div class="icon">
+                                        <i class="fa fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-12">
+                                <div class="feedback-content">
+                                    <p>“Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. curabitur arcu erat accumsan id imperdiet et porttitor at sem. mauris blandit aliquet elit eget tincidunt nibh pulvinar vivamus suscipit tortor eget felis porttitor volutpat. sed porttitor lectus nibh.”</p>
+                                    <div class="info">
+                                        <h3>James Healy</h3>
+                                        <span>Customer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="customer-feedback-card">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="feedback-image">
+                                    <img src="assets/img/home-seven/feedback/feedback2.jpg" class="rounded-circle" alt="image">
+                                    <div class="icon">
+                                        <i class="fa fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-12">
+                                <div class="feedback-content">
+                                    <p>“Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. curabitur arcu erat accumsan id imperdiet et porttitor at sem. mauris blandit aliquet elit eget tincidunt nibh pulvinar vivamus suscipit tortor eget felis porttitor volutpat. sed porttitor lectus nibh.”</p>
+                                    <div class="info">
+                                        <h3>Stanton Thompson</h3>
+                                        <span>Head Engineer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="customer-feedback-card">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="feedback-image">
+                                    <img src="assets/img/home-seven/feedback/feedback3.jpg" class="rounded-circle" alt="image">
+                                    <div class="icon">
+                                        <i class="fa fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-12">
+                                <div class="feedback-content">
+                                    <p>“Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. curabitur arcu erat accumsan id imperdiet et porttitor at sem. mauris blandit aliquet elit eget tincidunt nibh pulvinar vivamus suscipit tortor eget felis porttitor volutpat. sed porttitor lectus nibh.”</p>
+                                    <div class="info">
+                                        <h3>Shawn Walker</h3>
+                                        <span>Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+    </div>
+</div>

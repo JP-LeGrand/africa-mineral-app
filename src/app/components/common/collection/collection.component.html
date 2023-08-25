@@ -1,0 +1,87 @@
+<div
+    class="collection-area pt-100 pb-70"
+    [ngClass]="{'d-none': router.url === '/index-5'}"
+>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-collection-box">
+                    <img src="assets/img/collection/collection1.jpg" alt="collection-image">
+                    <div class="content">
+                        <h3>Clothing <span>34 Items</span></h3>
+                    </div>
+                    <a routerLink="/shop-full-width-1" class="link-btn"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-collection-box">
+                    <img src="assets/img/collection/collection2.jpg" alt="collection-image">
+                    <div class="content">
+                        <h3>Accessories <span>28 Items</span></h3>
+                    </div>
+                    <a routerLink="/shop-full-width-1" class="link-btn"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-collection-box">
+                    <img src="assets/img/collection/collection3.jpg" alt="collection-image">
+                    <div class="content">
+                        <h3>Leather Bag <span>52 Items</span></h3>
+                    </div>
+                    <a routerLink="/shop-full-width-1" class="link-btn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- This section for Home Demo - 5 -->
+<div
+    class="skin-care-collection-area pt-100 d-none"
+    [ngClass]="{'d-block': router.url === '/index-5'}"
+>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="skin-care-collection-card">
+                    <img src="assets/img/minerals/polished.jpeg" alt="collection-image">
+                    <div class="content">
+                        <span>57 Items</span>
+                        <h3>Polished Minerals</h3>
+                        <a routerLink="/shop-right-sidebar-1" class="collection-btn"><i class="fas fa-store"></i> SHOP NOW</a>
+                    </div>
+                    <a routerLink="/shop-full-width-1" class="link-btn"></a>
+                </div>
+                <div class="skin-care-collection-card with-padding-right">
+                    <img src="assets/img/minerals/specimen.jpg" alt="collection-image">
+                    <div class="content">
+                        <span>83 Items</span>
+                        <h3>Specimen Minerals</h3>
+                        <a routerLink="/shop-right-sidebar-1" class="collection-btn"><i class="fas fa-store"></i> SHOP NOW</a>
+                    </div>
+                    <a routerLink="/shop-full-width-1" class="link-btn"></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+               <div class="skin-care-collection-card with-padding-left">
+                    <img src="assets/img/minerals/gold-pyrite.jpeg" alt="collection-image">
+                    <div class="content">
+                        <span>55 Items</span>
+                        <h3>Raw Minerals</h3>
+                        <a routerLink="/shop-right-sidebar-1" class="collection-btn"><i class="fas fa-store"></i> SHOP NOW</a>
+                    </div>
+                    <a routerLink="/shop-full-width-1" class="link-btn"></a>
+                </div>
+                <div class="skin-care-collection-card">
+                    <img src="assets/img/minerals/designs.webp" alt="collection-image">
+                    <div class="content">
+                        <span>100 Items</span>
+                        <h3>Designed Creations</h3>
+                        <a routerLink="/shop-right-sidebar-1" class="collection-btn"><i class="fas fa-store"></i> SHOP NOW</a>
+                    </div>
+                    <a routerLink="/shop-full-width-1" class="link-btn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,350 @@
+<!-- Top Header -->
+<div
+    class="top-header-area"
+    [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/index-5'}"
+>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <p>Free Delivery Over $35 to Most of USA*</p>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="top-header-info">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <ul class="social-links">
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                        <div class="language-switcher">
+                            <select class="form-select">
+                                <option selected>English</option>
+                                <option>Spanish</option>
+                                <option>Chinese</option>
+                                <option>Russian</option>
+                                <option>Turkish</option>
+                            </select>
+                        </div>
+                        <div class="currency-switcher">
+                            <select class="form-select">
+                                <option selected>$USD</option>
+                                <option>€EUR</option>
+                                <option>$FJD</option>
+                                <option>£FKP</option>
+                                <option>£GBP</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar -->
+<div
+    class="navbar-area"
+    ngStickyNav
+    stickyClass="sticky-box-shadow"
+    ngStickyNav
+    [ngClass]="{'bg-f9f9f9' : router.url === '/'}"
+>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" [class.active]="classApplied">
+            <a class="navbar-brand" routerLink="/">AFRICA MINERALS</a>
+            <button class="navbar-toggler" type="button" (click)="toggleClass()">
+                <span class="burger-menu">
+                    <span class="top-bar"></span>
+                    <span class="middle-bar"></span>
+                    <span class="bottom-bar"></span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="javascript:void(0)" class="dropdown-toggle nav-link">HOME</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a routerLink="/" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Home Demo - One</a></li>
+                            <li class="nav-item"><a routerLink="/index-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Home Demo - Two</a></li>
+                            <li class="nav-item"><a routerLink="/index-3" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Home Demo - Three</a></li>
+                            <li class="nav-item"><a routerLink="/index-4" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Home Demo - Four</a></li>
+                            <li class="nav-item"><a routerLink="/index-5" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Home Demo - Five</a></li>
+                            <li class="nav-item"><a routerLink="/index-6" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Home Demo - Six</a></li>
+                            <li class="nav-item"><a routerLink="/index-7" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Home Demo - Seven</a></li>
+                            <li class="nav-item"><a routerLink="/index-8" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Home Demo - Eight</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item megamenu"><a href="javascript:void(0)" class="dropdown-toggle nav-link">SHOP</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="submenu-title">SHOP</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Full Width Style 01</a></li>
+                                            <li><a routerLink="/shop-full-width-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Full Width Style 02</a></li>
+                                            <li><a routerLink="/shop-left-sidebar-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Shop Left Sidebar Style 01</a></li>
+                                            <li><a routerLink="/shop-left-sidebar-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Shop Left Sidebar Style 02</a></li>
+                                            <li><a routerLink="/shop-right-sidebar-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Shop Right Sidebar Style 01</a></li>
+                                            <li><a routerLink="/shop-right-sidebar-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Shop Right Sidebar Style 02</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="submenu-title">PRODUCTS DETAILS</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/products-details" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Products Details</a></li>
+                                            <li><a routerLink="/cart" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Cart</a></li>
+                                            <li><a routerLink="/checkout" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Checkout</a></li>
+                                            <li><a routerLink="/wishlist" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Wishlist</a></li>
+                                            <li><a routerLink="/profile-authentication" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">My Account</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Dynamic Shop Page</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="dropdown-toggle nav-link">PAGES</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a routerLink="/about" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a routerLink="/feedback" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Feedback</a></li>
+                            <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Gallery <i class="fas fa-chevron-right"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a routerLink="/gallery-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Gallery Two Column</a></li>
+                                    <li class="nav-item"><a routerLink="/gallery-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Gallery Three Column</a></li>
+                                    <li class="nav-item"><a routerLink="/gallery-3" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Gallery Four Column</a></li>
+                                    <li class="nav-item"><a routerLink="/gallery-4" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Gallery Filter</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a routerLink="/faq" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">FAQ</a></li>
+                            <li class="nav-item"><a routerLink="/delivery-returns" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Delivery Returns Policy</a></li>
+                            <li class="nav-item"><a routerLink="/shipping" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Shipping Policy</a></li>
+                            <li class="nav-item"><a routerLink="/privacy-policy" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Privacy Policy</a></li>
+                            <li class="nav-item"><a routerLink="/terms-conditions" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Terms & Conditions</a></li>
+                            <li class="nav-item"><a routerLink="/not-found" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">404 Error Page</a></li>
+                            <li class="nav-item"><a routerLink="/coming-soon" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item megamenu"><a href="javascript:void(0)" class="dropdown-toggle nav-link">MEN</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="submenu-title">SHOP BY</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">New in</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Hot Sale</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Clothing</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Shoe</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Bag</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="submenu-title">COLLECTIONS</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Committed</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">2021 beachwear</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Office looks</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Leather and more</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Denim</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item megamenu"><a href="javascript:void(0)" class="dropdown-toggle nav-link">WOMEN</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="submenu-title">SHOP BY</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">New in</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Hot Sale</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Clothing</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Shoe</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Bag</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="submenu-title">COLLECTIONS</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Committed</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">2021 beachwear</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Office looks</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Leather and more</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Denim</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="dropdown-toggle nav-link">BLOG</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a routerLink="/blog-grid" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Blog Grid</a></li>
+                            <li class="nav-item"><a routerLink="/blog-left-sidebar" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Blog Left Sidebar</a></li>
+                            <li class="nav-item"><a routerLink="/blog-right-sidebar" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Blog Right Sidebar</a></li>
+                            <li class="nav-item"><a routerLink="/blog-details" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a routerLink="/contact" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" class="nav-link">CONTACT</a></li>
+                </ul>
+                <ul class="navbar-nav for-responsive">
+                    <li class="nav-item"><a href="javascript:void(0)" class="dropdown-toggle nav-link">HOME</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a routerLink="/" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Home Demo - One</a></li>
+                            <li class="nav-item"><a routerLink="/index-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Home Demo - Two</a></li>
+                            <li class="nav-item"><a routerLink="/index-3" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Home Demo - Three</a></li>
+                            <li class="nav-item"><a routerLink="/index-4" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Home Demo - Four</a></li>
+                            <li class="nav-item"><a routerLink="/index-5" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Home Demo - Five</a></li>
+                            <li class="nav-item"><a routerLink="/index-6" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Home Demo - Six</a></li>
+                            <li class="nav-item"><a routerLink="/index-7" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Home Demo - Seven</a></li>
+                            <li class="nav-item"><a routerLink="/index-8" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Home Demo - Eight</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item megamenu"><a href="javascript:void(0)" class="dropdown-toggle nav-link">SHOP</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="submenu-title">SHOP</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Full Width Style 01</a></li>
+                                            <li><a routerLink="/shop-full-width-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Full Width Style 02</a></li>
+                                            <li><a routerLink="/shop-left-sidebar-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Shop Left Sidebar Style 01</a></li>
+                                            <li><a routerLink="/shop-left-sidebar-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Shop Left Sidebar Style 02</a></li>
+                                            <li><a routerLink="/shop-right-sidebar-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Shop Right Sidebar Style 01</a></li>
+                                            <li><a routerLink="/shop-right-sidebar-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Shop Right Sidebar Style 02</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="submenu-title">PRODUCTS DETAILS</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/products-details" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Products Details</a></li>
+                                            <li><a routerLink="/cart" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Cart</a></li>
+                                            <li><a routerLink="/checkout" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Checkout</a></li>
+                                            <li><a routerLink="/wishlist" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Wishlist</a></li>
+                                            <li><a routerLink="/profile-authentication" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">My Account</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Dynamic Shop Page</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="dropdown-toggle nav-link">PAGES</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a routerLink="/about" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a routerLink="/feedback" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Feedback</a></li>
+                            <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Gallery <i class="fas fa-chevron-right"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a routerLink="/gallery-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Gallery Two Column</a></li>
+                                    <li class="nav-item"><a routerLink="/gallery-2" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Gallery Three Column</a></li>
+                                    <li class="nav-item"><a routerLink="/gallery-3" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Gallery Four Column</a></li>
+                                    <li class="nav-item"><a routerLink="/gallery-4" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Gallery Filter</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a routerLink="/faq" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">FAQ</a></li>
+                            <li class="nav-item"><a routerLink="/delivery-returns" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Delivery Returns Policy</a></li>
+                            <li class="nav-item"><a routerLink="/shipping" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Shipping Policy</a></li>
+                            <li class="nav-item"><a routerLink="/privacy-policy" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Privacy Policy</a></li>
+                            <li class="nav-item"><a routerLink="/terms-conditions" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Terms & Conditions</a></li>
+                            <li class="nav-item"><a routerLink="/not-found" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">404 Error Page</a></li>
+                            <li class="nav-item"><a routerLink="/coming-soon" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item megamenu"><a href="javascript:void(0)" class="dropdown-toggle nav-link">MEN</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="submenu-title">SHOP BY</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">New in</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Hot Sale</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Clothing</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Shoe</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Bag</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="submenu-title">COLLECTIONS</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Committed</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">2021 beachwear</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Office looks</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Leather and more</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Denim</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item megamenu"><a href="javascript:void(0)" class="dropdown-toggle nav-link">WOMEN</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="submenu-title">SHOP BY</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">New in</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Hot Sale</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Clothing</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Shoe</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Bag</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="submenu-title">COLLECTIONS</h6>
+                                        <ul class="megamenu-submenu">
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Committed</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">2021 beachwear</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Office looks</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Leather and more</a></li>
+                                            <li><a routerLink="/shop-full-width-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">Denim</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="dropdown-toggle nav-link">BLOG</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a routerLink="/blog-grid" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Blog Grid</a></li>
+                            <li class="nav-item"><a routerLink="/blog-left-sidebar" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Blog Left Sidebar</a></li>
+                            <li class="nav-item"><a routerLink="/blog-right-sidebar" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Blog Right Sidebar</a></li>
+                            <li class="nav-item"><a routerLink="/blog-details" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a routerLink="/contact" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()" class="nav-link">CONTACT</a></li>
+                </ul>
+                <div class="others-option d-flex align-items-center">
+                    <div class="option-item">
+                        <div class="search-box">
+                            <input type="text" class="input-search" placeholder="Search for products">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="option-item">
+                        <a routerLink="/profile-authentication" class="user-account"><i class="far fa-user"></i></a>
+                    </div>
+                    <div class="option-item">
+                        <a routerLink="/wishlist" class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                            <span>03</span>
+                        </a>
+                    </div>
+                    <div class="option-item">
+                        <a routerLink="/cart" class="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>{{ cartProducts.length }}</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
