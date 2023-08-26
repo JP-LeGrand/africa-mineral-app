@@ -42,7 +42,8 @@ import { TermsConditionsPageComponent } from './components/pages/terms-condition
 import { WishlistPageComponent } from './components/pages/wishlist-page/wishlist-page.component';
 
 const routes: Routes = [
-    {path: '', component: HomeDemoOneComponent},
+    {path: '', component: HomeDemoFiveComponent},
+    {path: 'index-1', component: HomeDemoOneComponent},
     {path: 'index-2', component: HomeDemoTwoComponent},
     {path: 'index-3', component: HomeDemoThreeComponent},
     {path: 'index-4', component: HomeDemoFourComponent},
@@ -82,7 +83,7 @@ const routes: Routes = [
     {path: 'blog-details', component: BlogDetailsPageComponent},
     {path: 'contact', component: ContactPageComponent},
     // Here add new pages component
-    
+
     { path: '**', component: NotFoundComponent } // This line will remain down from the whole pages component list
 ];
 
