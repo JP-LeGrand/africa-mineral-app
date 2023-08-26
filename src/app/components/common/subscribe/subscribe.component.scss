@@ -269,7 +269,7 @@
     position: relative;
     background: {
         color: var(--blackColor);
-        image: url(../../../../assets/img/more-home/subscribe/subscribe-bg.jpg);
+        image: url(../../../../assets/img/minerals/stone-background.jpeg);
         position: center center;
         repeat: no-repeat;
         size: cover;
@@ -451,7 +451,7 @@
 
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
-    
+
     .subscribe-inner {
         padding: 60px 15px;
 
@@ -627,7 +627,7 @@
 
 /* Min width 576px to Max width 767px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    
+
     .subscribe-inner {
         padding: 60px 25px;
 
@@ -700,7 +700,7 @@
 
 /* Min width 768px to Max width 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    
+
     .subscribe-inner {
         padding: 60px;
 
@@ -786,7 +786,7 @@
 
 /* Min width 992px to Max width 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    
+
     .subscribe-content {
         padding: 100px 30px;
     }

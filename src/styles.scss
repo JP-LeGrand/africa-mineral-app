@@ -5,7 +5,7 @@ Default CSS
 =================================================*/
 :root {
     --fontFamily: 'Jost', sans-serif;
-    --mainColor: #CF0018;
+    --mainColor: #64A606;
     --whiteColor: #ffffff;
     --blackColor: #000000;
     --optionalColor: #666666;
@@ -1363,7 +1363,7 @@ textarea.form-control {
             span {
                 background-color: #f5f5f5;
                 color: var(--optionalColor);
-                
+
                 &:hover {
                     background-color: var(--mainColor);
                     color: var(--whiteColor);
@@ -1413,7 +1413,7 @@ textarea.form-control {
         }
         .modal-body {
             padding: 0;
-            
+
             .image {
                 text-align: center;
             }
@@ -1442,7 +1442,7 @@ textarea.form-control {
                     li {
                         color: var(--optionalColor);
                         margin-bottom: 8px;
-    
+
                         &:last-child {
                             margin-bottom: 0;
                         }
@@ -1453,7 +1453,7 @@ textarea.form-control {
                             margin-left: 5px;
                             display: inline-block;
                             color: var(--optionalColor);
-    
+
                             &:hover {
                                 color: var(--mainColor);
                             }
@@ -1462,7 +1462,7 @@ textarea.form-control {
                 }
                 .products-add-to-cart {
                     margin-top: 20px;
-    
+
                     .input-counter {
                         max-width: 190px;
                         min-width: 190px;
@@ -1481,7 +1481,7 @@ textarea.form-control {
                             color: var(--optionalColor);
                             background-color: transparent;
                             transition: var(--transition);
-    
+
                             &.minus-btn {
                                 left: 0;
                                 border-right: 1px solid #eeeeee;
@@ -1569,7 +1569,7 @@ textarea.form-control {
     margin-bottom: 0;
     text-align: end;
     padding-left: 0;
-    
+
     li {
         z-index: 1;
         font-weight: 500;
@@ -1603,7 +1603,7 @@ textarea.form-control {
         }
         &:last-child {
             padding-left: 15px;
-            
+
             &::before {
                 display: none;
             }
@@ -1737,7 +1737,7 @@ textarea.form-control {
                 li {
                     margin-bottom: 12px;
                     color: var(--optionalColor);
-                    
+
                     strong {
                         color: var(--blackColor);
                     }
@@ -1844,7 +1844,7 @@ textarea.form-control {
                 border: 2px solid #f5f3f3;
                 transition: var(--transition);
                 background-color: transparent;
-                
+
                 &:hover, &.current {
                     color: var(--whiteColor);
                     border-color: var(--mainColor);
@@ -1958,7 +1958,7 @@ textarea.form-control {
 
             a {
                 color: var(--mainColor);
-    
+
                 &:hover {
                     text-decoration: underline;
                 }
@@ -1975,7 +1975,7 @@ textarea.form-control {
 
             a {
                 color: var(--mainColor);
-    
+
                 &:hover {
                     text-decoration: underline;
                 }
@@ -2111,7 +2111,7 @@ textarea.form-control {
             margin-top: 20px;
         }
     }
-    
+
     .home-wrapper-slides {
         .owl-theme {
             .owl-nav {
@@ -2267,7 +2267,7 @@ textarea.form-control {
         }
         .modal-content {
             padding: 15px;
-    
+
             .modal-body {
                 .content {
                     margin-top: 20px;
@@ -2276,11 +2276,11 @@ textarea.form-control {
                         font-size: 18px;
                     }
                     .products-add-to-cart {
-        
+
                         .input-counter {
                             max-width: 150px;
                             min-width: 150px;
-    
+
                             span {
                                 font-size: 14px;
                                 line-height: 40px;
@@ -2325,7 +2325,7 @@ textarea.form-control {
         .nav-tabset {
             margin-bottom: 20px;
             border-bottom: none;
-    
+
             .nav-tab {
                 display: block;
                 margin: {
@@ -2394,7 +2394,7 @@ textarea.form-control {
             height: 40px;
             font-size: 14px;
             line-height: 40px;
-            
+
             &.next {
                 margin-left: 5px;
             }
@@ -2406,10 +2406,10 @@ textarea.form-control {
     .faq-accordion {
         .panel-group {
             .panel-heading {
-                .panel-title {    
+                .panel-title {
                     a {
                         font-size: 15px;
-        
+
                         &::before {
                             top: 6px;
                             font-size: 12px;
@@ -2426,7 +2426,7 @@ textarea.form-control {
         .nav-tabset {
             margin-bottom: 10px;
             text-align: center;
-    
+
             .nav-tab {
                 margin: {
                     left: 6px;
@@ -2480,7 +2480,7 @@ textarea.form-control {
                         width: 16px;
                         height: 16px;
                         margin: 0 3px;
-    
+
                         &::before {
                             margin: 3px;
                         }
@@ -2497,7 +2497,7 @@ textarea.form-control {
                         width: 16px;
                         height: 16px;
                         margin: 0 3px;
-    
+
                         &::before {
                             margin: 3px;
                         }
@@ -2550,7 +2550,7 @@ textarea.form-control {
                     bottom: 60px;
                     left: 15px;
                     top: auto;
-                    
+
                     &.owl-next {
                         right: 15px;
                         left: auto;
@@ -2592,7 +2592,7 @@ textarea.form-control {
                     position: relative;
                     left: 0;
                     top: 0;
-    
+
                     &.owl-next {
                         right: 9;
                         left: 0;
@@ -2605,7 +2605,7 @@ textarea.form-control {
         .owl-theme {
             .owl-nav {
                 top: -60px;
-    
+
                 [class*=owl-] {
                     width: 30px;
                     height: 30px;
@@ -2649,7 +2649,7 @@ textarea.form-control {
                     position: relative;
                     left: 0;
                     top: 0;
-    
+
                     &.owl-next {
                         right: 9;
                         left: 0;
@@ -2663,7 +2663,7 @@ textarea.form-control {
 
 /* Min width 576px to Max width 767px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    
+
     .home-slides {
         .owl-theme {
             .owl-nav {
@@ -2706,7 +2706,7 @@ textarea.form-control {
             padding-bottom: 9px;
             border-bottom: 1px solid #eeeeee !important;
             margin-bottom: 20px;
-    
+
             .nav-tab {
                 margin-bottom: 0;
                 display: inline-block;
@@ -2879,14 +2879,14 @@ textarea.form-control {
         }
         .modal-content {
             padding: 25px;
-    
+
             .modal-body {
                 .content {
                     h3 {
                         font-size: 20px;
                     }
                     .products-add-to-cart {
-        
+
                         .input-counter {
                             max-width: 168px;
                             min-width: 168px;
@@ -2906,7 +2906,7 @@ textarea.form-control {
     .products-details-tabs {
         .nav-tabset {
             margin-bottom: 25px;
-    
+
             .nav-tab {
                 span {
                     font-size: 18px;
@@ -2963,7 +2963,7 @@ textarea.form-control {
     .faq-accordion {
         .panel-group {
             .panel-heading {
-                .panel-title {    
+                .panel-title {
                     a {
                         font-size: 17px;
                     }
@@ -3044,7 +3044,7 @@ textarea.form-control {
                     bottom: 80px;
                     left: 30px;
                     top: auto;
-                    
+
                     &.owl-next {
                         right: 30px;
                         left: auto;
@@ -3083,7 +3083,7 @@ textarea.form-control {
                     position: relative;
                     left: 0;
                     top: 0;
-    
+
                     &.owl-next {
                         right: 9;
                         left: 0;
@@ -3134,7 +3134,7 @@ textarea.form-control {
                     position: relative;
                     left: 0;
                     top: 0;
-    
+
                     &.owl-next {
                         right: 9;
                         left: 0;
@@ -3148,7 +3148,7 @@ textarea.form-control {
 
 /* Min width 992px to Max width 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    
+
     .home-wrapper-slides {
         .owl-theme {
             .owl-nav {
@@ -3191,7 +3191,7 @@ textarea.form-control {
                     left: -80px;
                     height: 50px;
                     font-size: 22px;
-                    
+
                     &.owl-next {
                         right: -80px;
                         left: auto;
@@ -3208,7 +3208,7 @@ textarea.form-control {
                     left: -80px;
                     height: 50px;
                     font-size: 22px;
-                    
+
                     &.owl-next {
                         right: -80px;
                         left: auto;
@@ -3244,7 +3244,7 @@ textarea.form-control {
                     position: relative;
                     left: 0;
                     top: 0;
-    
+
                     &.owl-next {
                         right: 9;
                         left: 0;
@@ -3269,7 +3269,7 @@ textarea.form-control {
                     position: relative;
                     left: 0;
                     top: 0;
-    
+
                     &.owl-next {
                         right: 9;
                         left: 0;
@@ -3283,7 +3283,7 @@ textarea.form-control {
 
 /* Min width 1200px to Max width 1399px */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    
+
     .home-wrapper-slides {
         .owl-theme {
             .owl-nav {
@@ -3326,7 +3326,7 @@ textarea.form-control {
                     position: relative;
                     left: 0;
                     top: 0;
-    
+
                     &.owl-next {
                         right: 9;
                         left: 0;
@@ -3351,7 +3351,7 @@ textarea.form-control {
                     position: relative;
                     left: 0;
                     top: 0;
-    
+
                     &.owl-next {
                         right: 9;
                         left: 0;
@@ -3365,7 +3365,7 @@ textarea.form-control {
 
 /* Min width 1600px */
 @media only screen and (min-width: 1600px) {
-    
+
     .home-wrapper-slides {
         .owl-theme {
             .owl-nav {
