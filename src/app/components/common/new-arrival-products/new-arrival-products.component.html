@@ -299,11 +299,11 @@
                 handpicked to ignite your passion for the extraordinary. Embrace the allure of the new and experience the thrill of uncovering nature's most recent masterpieces.</p>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" *ngFor="let content of products">
                 <div class="single-crafts-products-box">
                     <div class="crafts-products-image">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/rhodochrosite.jpeg" alt="products-image">
+                        <a [routerLink]="['/products', content.slug]" class="d-block">
+                            <img [src]="content.frontImg.url" alt="products-image">
                         </a>
                         <ul class="products-button">
                             <li>
@@ -328,110 +328,8 @@
                         <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
                     </div>
                     <div class="content">
-                        <h3><a routerLink="/products-details">Rhodochrosite</a></h3>
-                        <div class="price">$199.00/kg</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-crafts-products-box">
-                    <div class="crafts-products-image">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/tanzanite.jpg" alt="products-image">
-                        </a>
-                        <ul class="products-button">
-                            <li>
-                                <a routerLink="/products-details">
-                                    <i class="fas fa-search-plus"></i>
-                                    <span class="tooltip-label">View Product</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/compare">
-                                    <i class="fas fa-exchange-alt"></i>
-                                    <span class="tooltip-label">Compare</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/wishlist">
-                                    <i class="far fa-heart"></i>
-                                    <span class="tooltip-label">Add to Wishlist</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                    </div>
-                    <div class="content">
-                        <h3><a routerLink="/products-details">Tanzanite</a></h3>
-                        <div class="price">$199.00/kg</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-crafts-products-box">
-                    <div class="crafts-products-image">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/cassiterite.jpeg" alt="products-image">
-                        </a>
-                        <ul class="products-button">
-                            <li>
-                                <a routerLink="/products-details">
-                                    <i class="fas fa-search-plus"></i>
-                                    <span class="tooltip-label">View Product</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/compare">
-                                    <i class="fas fa-exchange-alt"></i>
-                                    <span class="tooltip-label">Compare</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/wishlist">
-                                    <i class="far fa-heart"></i>
-                                    <span class="tooltip-label">Add to Wishlist</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                    </div>
-                    <div class="content">
-                        <h3><a routerLink="/products-details">Cassiterite</a></h3>
-                        <div class="price">$199.00/kg</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-crafts-products-box">
-                    <div class="crafts-products-image">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/coltan.webp" alt="products-image">
-                        </a>
-                        <ul class="products-button">
-                            <li>
-                                <a routerLink="/products-details">
-                                    <i class="fas fa-search-plus"></i>
-                                    <span class="tooltip-label">View Product</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/compare">
-                                    <i class="fas fa-exchange-alt"></i>
-                                    <span class="tooltip-label">Compare</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/wishlist">
-                                    <i class="far fa-heart"></i>
-                                    <span class="tooltip-label">Add to Wishlist</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                    </div>
-                    <div class="content">
-                        <h3><a routerLink="/products-details">Coltan (Columbite-Tantalite)</a></h3>
-                        <div class="price">$199.00/kg</div>
+                        <h3><a [routerLink]="['/products', content.slug]">{{ content.title }}</a></h3>
+                        <div class="price">{{ content.currencyType }}{{ content.currentPrice }}/kg</div>
                     </div>
                 </div>
             </div>

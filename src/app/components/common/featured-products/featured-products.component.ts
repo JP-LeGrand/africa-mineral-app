@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
     selector: 'app-featured-products',
@@ -10,10 +11,17 @@ import { Router } from '@angular/router';
 export class FeaturedProductsComponent implements OnInit {
 
     constructor(
-        public router: Router
+        public router: Router,
+        private httpClient: HttpClient,
 	) { }
 
-    ngOnInit(): void {}
+    products: any = [];
+
+    ngOnInit(): void {
+        this.httpClient.get("assets/data/mineral-products.json").subscribe(data =>{
+            this.products = data;
+        });
+    }
 
     productsSlides: OwlOptions = {
 		nav: false,

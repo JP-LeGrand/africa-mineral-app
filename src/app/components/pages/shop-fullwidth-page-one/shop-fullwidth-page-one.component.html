@@ -21,7 +21,7 @@
         <div class="vaxim-grid-sorting row align-items-center">
             <div class="col-lg-6 col-md-6 result-count">
                 <div class="d-flex align-items-center">
-                    <p>We found <span class="count">09</span> products available for you</p>
+                    <p>We found <span class="count">{{products.length}}</span> products available for you</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 ordering">
@@ -157,7 +157,7 @@
                             <a routerLink="/shop-full-width-1">{{ product.vendor }}</a>
                         </li>
                         <li *ngIf="product.inStock">
-                            <span>Availability:</span> 
+                            <span>Availability:</span>
                             In stock
                         </li>
                         <li>

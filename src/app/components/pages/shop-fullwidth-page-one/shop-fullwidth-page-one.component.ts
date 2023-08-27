@@ -35,7 +35,7 @@ export class ShopFullwidthPageOneComponent implements OnInit {
     products: any = [];
 
     ngOnInit(){
-        this.httpClient.get("assets/data/products.json").subscribe(data =>{
+        this.httpClient.get("assets/data/mineral-products.json").subscribe(data =>{
             this.products = data;
         });
     }

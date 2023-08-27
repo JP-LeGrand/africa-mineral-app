@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -9,9 +10,16 @@ import { Router } from '@angular/router';
 export class NewArrivalProductsComponent implements OnInit {
 
     constructor(
-        public router: Router
+        public router: Router,
+        private httpClient: HttpClient,
     ) { }
 
-    ngOnInit(): void {}
+    products: any = [];
+
+    ngOnInit(): void {
+        this.httpClient.get("assets/data/mineral-products.json").subscribe(data =>{
+            this.products = data;
+        });
+    }
 
 }

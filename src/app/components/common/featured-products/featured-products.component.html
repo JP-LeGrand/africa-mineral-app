@@ -135,94 +135,16 @@
         </div>
         <div class="crafts-featured-products-slides">
             <owl-carousel-o [options]="productsSlides">
-                <ng-template carouselSlide>
+                <ng-template carouselSlide *ngFor="let content of products">
                     <div class="crafts-featured-products-card">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/rhodochrosite.jpeg" alt="products-image">
+                        <a [routerLink]="['/products', content.slug]" class="d-block">
+                            <img [src]="content.frontImg.url" alt="products-image">
                         </a>
                         <div class="products-content">
                             <h3>
-                                <a routerLink="/products-details">Rhodochrosite</a>
+                                <a [routerLink]="['/products', content.slug]">{{ content.title }}</a>
                             </h3>
-                            <div class="price">$199.00/kg</div>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template carouselSlide>
-                    <div class="crafts-featured-products-card">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/tanzanite.jpg" alt="products-image">
-                        </a>
-                        <div class="products-content">
-                            <h3>
-                                <a routerLink="/products-details">Tanzanite</a>
-                            </h3>
-                            <div class="price">$199.00/kg</div>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template carouselSlide>
-                    <div class="crafts-featured-products-card">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/cassiterite.jpeg" alt="products-image">
-                        </a>
-                        <div class="products-content">
-                            <h3>
-                                <a routerLink="/products-details">Cassiterite</a>
-                            </h3>
-                            <div class="price">$199.00/kg</div>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template carouselSlide>
-                    <div class="crafts-featured-products-card">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/coltan.webp" alt="products-image">
-                        </a>
-                        <div class="products-content">
-                            <h3>
-                                <a routerLink="/products-details">Coltan (Columbite-Tantalite)</a>
-                            </h3>
-                            <div class="price">$199.00/kg</div>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template carouselSlide>
-                    <div class="crafts-featured-products-card">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/malachite.webp" alt="products-image">
-                        </a>
-                        <div class="products-content">
-                            <h3>
-                                <a routerLink="/products-details">Malachite</a>
-                            </h3>
-                            <div class="price">$199.00/kg</div>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template carouselSlide>
-                    <div class="crafts-featured-products-card">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/pyrope.jpeg" alt="products-image">
-                        </a>
-                        <div class="products-content">
-                            <h3>
-                                <a routerLink="/products-details">Pyrope Garnet</a>
-                            </h3>
-                            <div class="price">$199.00/kg</div>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template carouselSlide>
-                    <div class="crafts-featured-products-card">
-                        <a routerLink="/products-details" class="d-block">
-                            <img src="assets/img/minerals/beryl.jpg" alt="products-image">
-                        </a>
-                        <div class="products-content">
-                            <h3>
-                                <a routerLink="/products-details">Beryl</a>
-                            </h3>
-                            <div class="price">$199.00/kg</div>
+                            <div class="price">{{ content.currencyType }}{{ content.currentPrice }}/kg</div>
                         </div>
                     </div>
                 </ng-template>

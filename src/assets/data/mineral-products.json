@@ -1,0 +1,1857 @@
+[
+    {
+        "id": 1,
+        "title": "Tanzanite",
+        "currencyType": "$",
+        "oldPrice": 241.99,
+        "currentPrice": 200.99,
+        "shortDesc": "Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elitet.",
+        "sku": "123ABC",
+        "vendor": "Lereve",
+        "inStock": false,
+        "LongDesc": "A beautiful and rare blue-violet gemstone that is found exclusively in the Merelani Hills of northern Tanzania, East Africa. It's a variety of the mineral zoisite and is known for its stunning blue and violet colors, often with a hint of purple. Tanzanite is one of the most sought-after gemstones due to its unique color and limited geographic source.",
+        "addInfo": "### Cheeky woman leather jacket\n\n**Care instructions**\n- Do not tumble dry. Machine wash at 30° C. Do not use a softener.\n\n**Material**\n- 100% organic cotton\n\n**Our model’s height**\n- Yannick: 5′ 11.5″ / 182cm (size M on the pictures)\n- Belen: 5′ 7.5” / 172cm (size M on the pictures)",
+        "published_at": "2021-06-24T03:59:42.971Z",
+        "created_at": "2021-06-24T03:59:40.549Z",
+        "updated_at": "2021-07-06T06:59:13.512Z",
+        "slug": "tanzanite",
+        "locale": "en",
+        "category": {
+          "id": 6,
+          "name": "Jeans",
+          "published_at": "2021-06-23T06:15:06.737Z",
+          "created_at": "2021-06-23T06:15:03.412Z",
+          "updated_at": "2021-06-23T06:15:06.759Z",
+          "locale": "en"
+        },
+        "bestSelling": true,
+        "outOfStock": true,
+        "hot": false,
+        "onSell": false,
+        "bestSellingProducts": true,
+        "newArrivalProducts": false,
+        "newArrival": false,
+        "reviews": [
+          {
+            "id": 13,
+            "ratings": 5,
+            "name": "James Anderson",
+            "feedback": "The very well-built theme, couldn't be happier with it. Can't wait for future updates to see what else they add-in.",
+            "authorImg": {
+              "id": 24,
+              "name": "user1.jpg",
+              "alternativeText": "",
+              "caption": "",
+              "width": 300,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429096/thumbnail_user1_2f054f90ef.jpg",
+                  "hash": "thumbnail_user1_2f054f90ef",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_user1.jpg",
+                  "path": null,
+                  "size": 4.44,
+                  "width": 156,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_user1_2f054f90ef",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "user1_2f054f90ef",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 11.08,
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429095/user1_2f054f90ef.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "user1_2f054f90ef",
+                "resource_type": "image"
+              },
+              "created_at": "2021-06-23T06:18:15.369Z",
+              "updated_at": "2021-06-23T06:18:15.389Z"
+            }
+          }
+        ],
+        "frontImg": {
+          "id": 7,
+          "name": "products3.jpg",
+          "alternativeText": "",
+          "caption": "",
+          "width": 860,
+          "height": 1092,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+              "hash": "large_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "large_products3.jpg",
+              "path": null,
+              "size": 67.24,
+              "width": 788,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "large_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+              "hash": "small_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "small_products3.jpg",
+              "path": null,
+              "size": 22.79,
+              "width": 394,
+              "height": 500,
+              "provider_metadata": {
+                "public_id": "small_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+              "hash": "medium_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "medium_products3.jpg",
+              "path": null,
+              "size": 43.06,
+              "width": 591,
+              "height": 750,
+              "provider_metadata": {
+                "public_id": "medium_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+              "hash": "thumbnail_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_products3.jpg",
+              "path": null,
+              "size": 4.33,
+              "width": 123,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "products3_00c795c71b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 62.84,
+          "url": "assets/img/minerals/tanzanite.jpg",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "products3_00c795c71b",
+            "resource_type": "image"
+          },
+          "created_at": "2021-06-23T05:38:52.209Z",
+          "updated_at": "2021-06-23T05:38:52.219Z"
+        },
+        "detailsImg": [
+          {
+            "id": 7,
+            "name": "products3.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 860,
+            "height": 1092,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+                "hash": "large_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "large_products3.jpg",
+                "path": null,
+                "size": 67.24,
+                "width": 788,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+                "hash": "small_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "small_products3.jpg",
+                "path": null,
+                "size": 22.79,
+                "width": 394,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+                "hash": "medium_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "medium_products3.jpg",
+                "path": null,
+                "size": 43.06,
+                "width": 591,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+                "hash": "thumbnail_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "thumbnail_products3.jpg",
+                "path": null,
+                "size": 4.33,
+                "width": 123,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "products3_00c795c71b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 62.84,
+            "url": "assets/img/minerals/tanzanite.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "products3_00c795c71b",
+              "resource_type": "image"
+            },
+            "created_at": "2021-06-23T05:38:52.209Z",
+            "updated_at": "2021-06-23T05:38:52.219Z"
+          }
+        ],
+        "orders": [
+
+        ],
+        "localizations": [
+
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cassiterite",
+        "currencyType": "$",
+        "oldPrice": 241.99,
+        "currentPrice": 200.99,
+        "shortDesc": "Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elitet.",
+        "sku": "123ABC",
+        "vendor": "Lereve",
+        "inStock": false,
+        "LongDesc": "This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit.\n\n**Features & functionality**\n- High quality certified organic cotton\n- Loopback sweat\n- Fixed hood lined in main fabric\n- Dropped shoulder seam\n- Pouch pocket with jersey lining\n- Signature “A” cut line on the back\n- 1/1 rib at hem and sleeves\n- 5cm logo embroidery at center front upper chest\n- Unisex fit\n\n*This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit.*",
+        "addInfo": "### Cheeky woman leather jacket\n\n**Care instructions**\n- Do not tumble dry. Machine wash at 30° C. Do not use a softener.\n\n**Material**\n- 100% organic cotton\n\n**Our model’s height**\n- Yannick: 5′ 11.5″ / 182cm (size M on the pictures)\n- Belen: 5′ 7.5” / 172cm (size M on the pictures)",
+        "published_at": "2021-06-24T03:59:42.971Z",
+        "created_at": "2021-06-24T03:59:40.549Z",
+        "updated_at": "2021-07-06T06:59:13.512Z",
+        "slug": "cassiterite",
+        "locale": "en",
+        "category": {
+          "id": 6,
+          "name": "Jeans",
+          "published_at": "2021-06-23T06:15:06.737Z",
+          "created_at": "2021-06-23T06:15:03.412Z",
+          "updated_at": "2021-06-23T06:15:06.759Z",
+          "locale": "en"
+        },
+        "bestSelling": true,
+        "outOfStock": true,
+        "hot": false,
+        "onSell": false,
+        "bestSellingProducts": true,
+        "newArrivalProducts": false,
+        "newArrival": false,
+        "reviews": [
+          {
+            "id": 13,
+            "ratings": 5,
+            "name": "James Anderson",
+            "feedback": "The very well-built theme, couldn't be happier with it. Can't wait for future updates to see what else they add-in.",
+            "authorImg": {
+              "id": 24,
+              "name": "user1.jpg",
+              "alternativeText": "",
+              "caption": "",
+              "width": 300,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429096/thumbnail_user1_2f054f90ef.jpg",
+                  "hash": "thumbnail_user1_2f054f90ef",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_user1.jpg",
+                  "path": null,
+                  "size": 4.44,
+                  "width": 156,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_user1_2f054f90ef",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "user1_2f054f90ef",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 11.08,
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429095/user1_2f054f90ef.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "user1_2f054f90ef",
+                "resource_type": "image"
+              },
+              "created_at": "2021-06-23T06:18:15.369Z",
+              "updated_at": "2021-06-23T06:18:15.389Z"
+            }
+          }
+        ],
+        "frontImg": {
+          "id": 7,
+          "name": "products3.jpg",
+          "alternativeText": "",
+          "caption": "",
+          "width": 860,
+          "height": 1092,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+              "hash": "large_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "large_products3.jpg",
+              "path": null,
+              "size": 67.24,
+              "width": 788,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "large_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+              "hash": "small_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "small_products3.jpg",
+              "path": null,
+              "size": 22.79,
+              "width": 394,
+              "height": 500,
+              "provider_metadata": {
+                "public_id": "small_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+              "hash": "medium_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "medium_products3.jpg",
+              "path": null,
+              "size": 43.06,
+              "width": 591,
+              "height": 750,
+              "provider_metadata": {
+                "public_id": "medium_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+              "hash": "thumbnail_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_products3.jpg",
+              "path": null,
+              "size": 4.33,
+              "width": 123,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "products3_00c795c71b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 62.84,
+          "url": "assets/img/minerals/cassiterite.jpeg",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "products3_00c795c71b",
+            "resource_type": "image"
+          },
+          "created_at": "2021-06-23T05:38:52.209Z",
+          "updated_at": "2021-06-23T05:38:52.219Z"
+        },
+        "detailsImg": [
+          {
+            "id": 7,
+            "name": "products3.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 860,
+            "height": 1092,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+                "hash": "large_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "large_products3.jpg",
+                "path": null,
+                "size": 67.24,
+                "width": 788,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+                "hash": "small_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "small_products3.jpg",
+                "path": null,
+                "size": 22.79,
+                "width": 394,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+                "hash": "medium_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "medium_products3.jpg",
+                "path": null,
+                "size": 43.06,
+                "width": 591,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+                "hash": "thumbnail_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "thumbnail_products3.jpg",
+                "path": null,
+                "size": 4.33,
+                "width": 123,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "products3_00c795c71b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 62.84,
+            "url": "assets/img/minerals/cassiterite.jpeg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "products3_00c795c71b",
+              "resource_type": "image"
+            },
+            "created_at": "2021-06-23T05:38:52.209Z",
+            "updated_at": "2021-06-23T05:38:52.219Z"
+          }
+        ],
+        "orders": [
+
+        ],
+        "localizations": [
+
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Coltan (Columbite-Tantalite)",
+        "currencyType": "$",
+        "oldPrice": 241.99,
+        "currentPrice": 200.99,
+        "shortDesc": "Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elitet.",
+        "sku": "123ABC",
+        "vendor": "Lereve",
+        "inStock": false,
+        "LongDesc": "This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit.\n\n**Features & functionality**\n- High quality certified organic cotton\n- Loopback sweat\n- Fixed hood lined in main fabric\n- Dropped shoulder seam\n- Pouch pocket with jersey lining\n- Signature “A” cut line on the back\n- 1/1 rib at hem and sleeves\n- 5cm logo embroidery at center front upper chest\n- Unisex fit\n\n*This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit.*",
+        "addInfo": "### Cheeky woman leather jacket\n\n**Care instructions**\n- Do not tumble dry. Machine wash at 30° C. Do not use a softener.\n\n**Material**\n- 100% organic cotton\n\n**Our model’s height**\n- Yannick: 5′ 11.5″ / 182cm (size M on the pictures)\n- Belen: 5′ 7.5” / 172cm (size M on the pictures)",
+        "published_at": "2021-06-24T03:59:42.971Z",
+        "created_at": "2021-06-24T03:59:40.549Z",
+        "updated_at": "2021-07-06T06:59:13.512Z",
+        "slug": "coltan-columbite-tantalite",
+        "locale": "en",
+        "category": {
+          "id": 6,
+          "name": "Jeans",
+          "published_at": "2021-06-23T06:15:06.737Z",
+          "created_at": "2021-06-23T06:15:03.412Z",
+          "updated_at": "2021-06-23T06:15:06.759Z",
+          "locale": "en"
+        },
+        "bestSelling": true,
+        "outOfStock": true,
+        "hot": false,
+        "onSell": false,
+        "bestSellingProducts": true,
+        "newArrivalProducts": false,
+        "newArrival": false,
+        "reviews": [
+          {
+            "id": 13,
+            "ratings": 5,
+            "name": "James Anderson",
+            "feedback": "The very well-built theme, couldn't be happier with it. Can't wait for future updates to see what else they add-in.",
+            "authorImg": {
+              "id": 24,
+              "name": "user1.jpg",
+              "alternativeText": "",
+              "caption": "",
+              "width": 300,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429096/thumbnail_user1_2f054f90ef.jpg",
+                  "hash": "thumbnail_user1_2f054f90ef",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_user1.jpg",
+                  "path": null,
+                  "size": 4.44,
+                  "width": 156,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_user1_2f054f90ef",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "user1_2f054f90ef",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 11.08,
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429095/user1_2f054f90ef.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "user1_2f054f90ef",
+                "resource_type": "image"
+              },
+              "created_at": "2021-06-23T06:18:15.369Z",
+              "updated_at": "2021-06-23T06:18:15.389Z"
+            }
+          }
+        ],
+        "frontImg": {
+          "id": 7,
+          "name": "products3.jpg",
+          "alternativeText": "",
+          "caption": "",
+          "width": 860,
+          "height": 1092,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+              "hash": "large_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "large_products3.jpg",
+              "path": null,
+              "size": 67.24,
+              "width": 788,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "large_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+              "hash": "small_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "small_products3.jpg",
+              "path": null,
+              "size": 22.79,
+              "width": 394,
+              "height": 500,
+              "provider_metadata": {
+                "public_id": "small_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+              "hash": "medium_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "medium_products3.jpg",
+              "path": null,
+              "size": 43.06,
+              "width": 591,
+              "height": 750,
+              "provider_metadata": {
+                "public_id": "medium_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+              "hash": "thumbnail_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_products3.jpg",
+              "path": null,
+              "size": 4.33,
+              "width": 123,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "products3_00c795c71b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 62.84,
+          "url": "assets/img/minerals/coltan.webp",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "products3_00c795c71b",
+            "resource_type": "image"
+          },
+          "created_at": "2021-06-23T05:38:52.209Z",
+          "updated_at": "2021-06-23T05:38:52.219Z"
+        },
+        "detailsImg": [
+          {
+            "id": 7,
+            "name": "products3.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 860,
+            "height": 1092,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+                "hash": "large_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "large_products3.jpg",
+                "path": null,
+                "size": 67.24,
+                "width": 788,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+                "hash": "small_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "small_products3.jpg",
+                "path": null,
+                "size": 22.79,
+                "width": 394,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+                "hash": "medium_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "medium_products3.jpg",
+                "path": null,
+                "size": 43.06,
+                "width": 591,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+                "hash": "thumbnail_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "thumbnail_products3.jpg",
+                "path": null,
+                "size": 4.33,
+                "width": 123,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "products3_00c795c71b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 62.84,
+            "url": "assets/img/minerals/coltan.webp",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "products3_00c795c71b",
+              "resource_type": "image"
+            },
+            "created_at": "2021-06-23T05:38:52.209Z",
+            "updated_at": "2021-06-23T05:38:52.219Z"
+          }
+        ],
+        "orders": [
+
+        ],
+        "localizations": [
+
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Malachite",
+        "currencyType": "$",
+        "oldPrice": 241.99,
+        "currentPrice": 200.99,
+        "shortDesc": "Vibrant green copper carbonate mineral. It's often used for ornamental purposes and in jewelry due to its beautiful color and unique patterns.",
+        "sku": "123ABC",
+        "vendor": "Lereve",
+        "inStock": false,
+        "LongDesc": "Vibrant green copper carbonate mineral. It's often used for ornamental purposes and in jewelry due to its beautiful color and unique patterns.",
+        "addInfo": "### Cheeky woman leather jacket\n\n**Care instructions**\n- Do not tumble dry. Machine wash at 30° C. Do not use a softener.\n\n**Material**\n- 100% organic cotton\n\n**Our model’s height**\n- Yannick: 5′ 11.5″ / 182cm (size M on the pictures)\n- Belen: 5′ 7.5” / 172cm (size M on the pictures)",
+        "published_at": "2021-06-24T03:59:42.971Z",
+        "created_at": "2021-06-24T03:59:40.549Z",
+        "updated_at": "2021-07-06T06:59:13.512Z",
+        "slug": "malachite",
+        "locale": "en",
+        "category": {
+          "id": 6,
+          "name": "Jeans",
+          "published_at": "2021-06-23T06:15:06.737Z",
+          "created_at": "2021-06-23T06:15:03.412Z",
+          "updated_at": "2021-06-23T06:15:06.759Z",
+          "locale": "en"
+        },
+        "bestSelling": true,
+        "outOfStock": true,
+        "hot": false,
+        "onSell": false,
+        "bestSellingProducts": true,
+        "newArrivalProducts": false,
+        "newArrival": false,
+        "reviews": [
+          {
+            "id": 13,
+            "ratings": 5,
+            "name": "James Anderson",
+            "feedback": "The very well-built theme, couldn't be happier with it. Can't wait for future updates to see what else they add-in.",
+            "authorImg": {
+              "id": 24,
+              "name": "user1.jpg",
+              "alternativeText": "",
+              "caption": "",
+              "width": 300,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429096/thumbnail_user1_2f054f90ef.jpg",
+                  "hash": "thumbnail_user1_2f054f90ef",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_user1.jpg",
+                  "path": null,
+                  "size": 4.44,
+                  "width": 156,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_user1_2f054f90ef",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "user1_2f054f90ef",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 11.08,
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429095/user1_2f054f90ef.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "user1_2f054f90ef",
+                "resource_type": "image"
+              },
+              "created_at": "2021-06-23T06:18:15.369Z",
+              "updated_at": "2021-06-23T06:18:15.389Z"
+            }
+          }
+        ],
+        "frontImg": {
+          "id": 7,
+          "name": "products3.jpg",
+          "alternativeText": "",
+          "caption": "",
+          "width": 860,
+          "height": 1092,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+              "hash": "large_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "large_products3.jpg",
+              "path": null,
+              "size": 67.24,
+              "width": 788,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "large_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+              "hash": "small_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "small_products3.jpg",
+              "path": null,
+              "size": 22.79,
+              "width": 394,
+              "height": 500,
+              "provider_metadata": {
+                "public_id": "small_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+              "hash": "medium_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "medium_products3.jpg",
+              "path": null,
+              "size": 43.06,
+              "width": 591,
+              "height": 750,
+              "provider_metadata": {
+                "public_id": "medium_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+              "hash": "thumbnail_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_products3.jpg",
+              "path": null,
+              "size": 4.33,
+              "width": 123,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "products3_00c795c71b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 62.84,
+          "url": "assets/img/minerals/malachite.webp",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "products3_00c795c71b",
+            "resource_type": "image"
+          },
+          "created_at": "2021-06-23T05:38:52.209Z",
+          "updated_at": "2021-06-23T05:38:52.219Z"
+        },
+        "detailsImg": [
+          {
+            "id": 7,
+            "name": "products3.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 860,
+            "height": 1092,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+                "hash": "large_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "large_products3.jpg",
+                "path": null,
+                "size": 67.24,
+                "width": 788,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+                "hash": "small_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "small_products3.jpg",
+                "path": null,
+                "size": 22.79,
+                "width": 394,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+                "hash": "medium_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "medium_products3.jpg",
+                "path": null,
+                "size": 43.06,
+                "width": 591,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+                "hash": "thumbnail_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "thumbnail_products3.jpg",
+                "path": null,
+                "size": 4.33,
+                "width": 123,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "products3_00c795c71b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 62.84,
+            "url": "assets/img/minerals/malachite.webp",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "products3_00c795c71b",
+              "resource_type": "image"
+            },
+            "created_at": "2021-06-23T05:38:52.209Z",
+            "updated_at": "2021-06-23T05:38:52.219Z"
+          }
+        ],
+        "orders": [
+
+        ],
+        "localizations": [
+
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Pyrope Garnet",
+        "currencyType": "$",
+        "oldPrice": 241.99,
+        "currentPrice": 200.99,
+        "shortDesc": "Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elitet.",
+        "sku": "123ABC",
+        "vendor": "Lereve",
+        "inStock": false,
+        "LongDesc": "This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit.\n\n**Features & functionality**\n- High quality certified organic cotton\n- Loopback sweat\n- Fixed hood lined in main fabric\n- Dropped shoulder seam\n- Pouch pocket with jersey lining\n- Signature “A” cut line on the back\n- 1/1 rib at hem and sleeves\n- 5cm logo embroidery at center front upper chest\n- Unisex fit\n\n*This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit.*",
+        "addInfo": "### Cheeky woman leather jacket\n\n**Care instructions**\n- Do not tumble dry. Machine wash at 30° C. Do not use a softener.\n\n**Material**\n- 100% organic cotton\n\n**Our model’s height**\n- Yannick: 5′ 11.5″ / 182cm (size M on the pictures)\n- Belen: 5′ 7.5” / 172cm (size M on the pictures)",
+        "published_at": "2021-06-24T03:59:42.971Z",
+        "created_at": "2021-06-24T03:59:40.549Z",
+        "updated_at": "2021-07-06T06:59:13.512Z",
+        "slug": "pyrope-garnet",
+        "locale": "en",
+        "category": {
+          "id": 6,
+          "name": "Jeans",
+          "published_at": "2021-06-23T06:15:06.737Z",
+          "created_at": "2021-06-23T06:15:03.412Z",
+          "updated_at": "2021-06-23T06:15:06.759Z",
+          "locale": "en"
+        },
+        "bestSelling": true,
+        "outOfStock": true,
+        "hot": false,
+        "onSell": false,
+        "bestSellingProducts": true,
+        "newArrivalProducts": false,
+        "newArrival": false,
+        "reviews": [
+          {
+            "id": 13,
+            "ratings": 5,
+            "name": "James Anderson",
+            "feedback": "The very well-built theme, couldn't be happier with it. Can't wait for future updates to see what else they add-in.",
+            "authorImg": {
+              "id": 24,
+              "name": "user1.jpg",
+              "alternativeText": "",
+              "caption": "",
+              "width": 300,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429096/thumbnail_user1_2f054f90ef.jpg",
+                  "hash": "thumbnail_user1_2f054f90ef",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_user1.jpg",
+                  "path": null,
+                  "size": 4.44,
+                  "width": 156,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_user1_2f054f90ef",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "user1_2f054f90ef",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 11.08,
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429095/user1_2f054f90ef.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "user1_2f054f90ef",
+                "resource_type": "image"
+              },
+              "created_at": "2021-06-23T06:18:15.369Z",
+              "updated_at": "2021-06-23T06:18:15.389Z"
+            }
+          }
+        ],
+        "frontImg": {
+          "id": 7,
+          "name": "products3.jpg",
+          "alternativeText": "",
+          "caption": "",
+          "width": 860,
+          "height": 1092,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+              "hash": "large_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "large_products3.jpg",
+              "path": null,
+              "size": 67.24,
+              "width": 788,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "large_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+              "hash": "small_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "small_products3.jpg",
+              "path": null,
+              "size": 22.79,
+              "width": 394,
+              "height": 500,
+              "provider_metadata": {
+                "public_id": "small_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+              "hash": "medium_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "medium_products3.jpg",
+              "path": null,
+              "size": 43.06,
+              "width": 591,
+              "height": 750,
+              "provider_metadata": {
+                "public_id": "medium_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+              "hash": "thumbnail_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_products3.jpg",
+              "path": null,
+              "size": 4.33,
+              "width": 123,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "products3_00c795c71b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 62.84,
+          "url": "assets/img/minerals/pyrope.jpeg",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "products3_00c795c71b",
+            "resource_type": "image"
+          },
+          "created_at": "2021-06-23T05:38:52.209Z",
+          "updated_at": "2021-06-23T05:38:52.219Z"
+        },
+        "detailsImg": [
+          {
+            "id": 7,
+            "name": "products3.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 860,
+            "height": 1092,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+                "hash": "large_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "large_products3.jpg",
+                "path": null,
+                "size": 67.24,
+                "width": 788,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+                "hash": "small_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "small_products3.jpg",
+                "path": null,
+                "size": 22.79,
+                "width": 394,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+                "hash": "medium_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "medium_products3.jpg",
+                "path": null,
+                "size": 43.06,
+                "width": 591,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+                "hash": "thumbnail_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "thumbnail_products3.jpg",
+                "path": null,
+                "size": 4.33,
+                "width": 123,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "products3_00c795c71b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 62.84,
+            "url": "assets/img/minerals/pyrope.jpeg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "products3_00c795c71b",
+              "resource_type": "image"
+            },
+            "created_at": "2021-06-23T05:38:52.209Z",
+            "updated_at": "2021-06-23T05:38:52.219Z"
+          },
+          {
+            "id": 2,
+            "name": "products20.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 860,
+            "height": 1092,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426728/large_products20_9fd8c4bfa7.jpg",
+                "hash": "large_products20_9fd8c4bfa7",
+                "mime": "image/jpeg",
+                "name": "large_products20.jpg",
+                "path": null,
+                "size": 29.6,
+                "width": 788,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_products20_9fd8c4bfa7",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/small_products20_9fd8c4bfa7.jpg",
+                "hash": "small_products20_9fd8c4bfa7",
+                "mime": "image/jpeg",
+                "name": "small_products20.jpg",
+                "path": null,
+                "size": 11.14,
+                "width": 394,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_products20_9fd8c4bfa7",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426730/medium_products20_9fd8c4bfa7.jpg",
+                "hash": "medium_products20_9fd8c4bfa7",
+                "mime": "image/jpeg",
+                "name": "medium_products20.jpg",
+                "path": null,
+                "size": 19.6,
+                "width": 591,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_products20_9fd8c4bfa7",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products20_9fd8c4bfa7.jpg",
+                "hash": "thumbnail_products20_9fd8c4bfa7",
+                "mime": "image/jpeg",
+                "name": "thumbnail_products20.jpg",
+                "path": null,
+                "size": 2.68,
+                "width": 123,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_products20_9fd8c4bfa7",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "products20_9fd8c4bfa7",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 26.04,
+            "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426726/products20_9fd8c4bfa7.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "products20_9fd8c4bfa7",
+              "resource_type": "image"
+            },
+            "created_at": "2021-06-23T05:38:50.639Z",
+            "updated_at": "2021-06-23T05:38:50.654Z"
+          }
+        ],
+        "orders": [
+
+        ],
+        "localizations": [
+
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Beryl",
+        "currencyType": "$",
+        "oldPrice": 241.99,
+        "currentPrice": 200.99,
+        "shortDesc": "Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elitet.",
+        "sku": "123ABC",
+        "vendor": "Lereve",
+        "inStock": false,
+        "LongDesc": "This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit.\n\n**Features & functionality**\n- High quality certified organic cotton\n- Loopback sweat\n- Fixed hood lined in main fabric\n- Dropped shoulder seam\n- Pouch pocket with jersey lining\n- Signature “A” cut line on the back\n- 1/1 rib at hem and sleeves\n- 5cm logo embroidery at center front upper chest\n- Unisex fit\n\n*This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Lorem ipsum dolor sit.*",
+        "addInfo": "### Cheeky woman leather jacket\n\n**Care instructions**\n- Do not tumble dry. Machine wash at 30° C. Do not use a softener.\n\n**Material**\n- 100% organic cotton\n\n**Our model’s height**\n- Yannick: 5′ 11.5″ / 182cm (size M on the pictures)\n- Belen: 5′ 7.5” / 172cm (size M on the pictures)",
+        "published_at": "2021-06-24T03:59:42.971Z",
+        "created_at": "2021-06-24T03:59:40.549Z",
+        "updated_at": "2021-07-06T06:59:13.512Z",
+        "slug": "beryl",
+        "locale": "en",
+        "category": {
+          "id": 6,
+          "name": "Jeans",
+          "published_at": "2021-06-23T06:15:06.737Z",
+          "created_at": "2021-06-23T06:15:03.412Z",
+          "updated_at": "2021-06-23T06:15:06.759Z",
+          "locale": "en"
+        },
+        "bestSelling": true,
+        "outOfStock": true,
+        "hot": false,
+        "onSell": false,
+        "bestSellingProducts": true,
+        "newArrivalProducts": false,
+        "newArrival": false,
+        "reviews": [
+          {
+            "id": 13,
+            "ratings": 5,
+            "name": "James Anderson",
+            "feedback": "The very well-built theme, couldn't be happier with it. Can't wait for future updates to see what else they add-in.",
+            "authorImg": {
+              "id": 24,
+              "name": "user1.jpg",
+              "alternativeText": "",
+              "caption": "",
+              "width": 300,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429096/thumbnail_user1_2f054f90ef.jpg",
+                  "hash": "thumbnail_user1_2f054f90ef",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_user1.jpg",
+                  "path": null,
+                  "size": 4.44,
+                  "width": 156,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_user1_2f054f90ef",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "user1_2f054f90ef",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 11.08,
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429095/user1_2f054f90ef.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "user1_2f054f90ef",
+                "resource_type": "image"
+              },
+              "created_at": "2021-06-23T06:18:15.369Z",
+              "updated_at": "2021-06-23T06:18:15.389Z"
+            }
+          }
+        ],
+        "frontImg": {
+          "id": 7,
+          "name": "products3.jpg",
+          "alternativeText": "",
+          "caption": "",
+          "width": 860,
+          "height": 1092,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+              "hash": "large_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "large_products3.jpg",
+              "path": null,
+              "size": 67.24,
+              "width": 788,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "large_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+              "hash": "small_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "small_products3.jpg",
+              "path": null,
+              "size": 22.79,
+              "width": 394,
+              "height": 500,
+              "provider_metadata": {
+                "public_id": "small_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+              "hash": "medium_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "medium_products3.jpg",
+              "path": null,
+              "size": 43.06,
+              "width": 591,
+              "height": 750,
+              "provider_metadata": {
+                "public_id": "medium_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+              "hash": "thumbnail_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_products3.jpg",
+              "path": null,
+              "size": 4.33,
+              "width": 123,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "products3_00c795c71b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 62.84,
+          "url": "assets/img/minerals/beryl.jpg",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "products3_00c795c71b",
+            "resource_type": "image"
+          },
+          "created_at": "2021-06-23T05:38:52.209Z",
+          "updated_at": "2021-06-23T05:38:52.219Z"
+        },
+        "detailsImg": [
+          {
+            "id": 7,
+            "name": "products3.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 860,
+            "height": 1092,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+                "hash": "large_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "large_products3.jpg",
+                "path": null,
+                "size": 67.24,
+                "width": 788,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+                "hash": "small_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "small_products3.jpg",
+                "path": null,
+                "size": 22.79,
+                "width": 394,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+                "hash": "medium_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "medium_products3.jpg",
+                "path": null,
+                "size": 43.06,
+                "width": 591,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+                "hash": "thumbnail_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "thumbnail_products3.jpg",
+                "path": null,
+                "size": 4.33,
+                "width": 123,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "products3_00c795c71b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 62.84,
+            "url": "assets/img/minerals/beryl.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "products3_00c795c71b",
+              "resource_type": "image"
+            },
+            "created_at": "2021-06-23T05:38:52.209Z",
+            "updated_at": "2021-06-23T05:38:52.219Z"
+          }
+        ],
+        "orders": [
+
+        ],
+        "localizations": [
+
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Rhodochrosite",
+        "currencyType": "$",
+        "oldPrice": 241.99,
+        "currentPrice": 200.99,
+        "shortDesc": "This pink to red mineral is a manganese carbonate. It's valued for its vibrant color and is sometimes used in jewelry.",
+        "sku": "123ABC",
+        "vendor": "Lereve",
+        "inStock": false,
+        "LongDesc": "This pink to red mineral is a manganese carbonate. It's valued for its vibrant color and is sometimes used in jewelry.",
+        "addInfo": "### Cheeky woman leather jacket\n\n**Care instructions**\n- Do not tumble dry. Machine wash at 30° C. Do not use a softener.\n\n**Material**\n- 100% organic cotton\n\n**Our model’s height**\n- Yannick: 5′ 11.5″ / 182cm (size M on the pictures)\n- Belen: 5′ 7.5” / 172cm (size M on the pictures)",
+        "published_at": "2021-06-24T03:59:42.971Z",
+        "created_at": "2021-06-24T03:59:40.549Z",
+        "updated_at": "2021-07-06T06:59:13.512Z",
+        "slug": "rhodochrosite",
+        "locale": "en",
+        "category": {
+          "id": 6,
+          "name": "Jeans",
+          "published_at": "2021-06-23T06:15:06.737Z",
+          "created_at": "2021-06-23T06:15:03.412Z",
+          "updated_at": "2021-06-23T06:15:06.759Z",
+          "locale": "en"
+        },
+        "bestSelling": true,
+        "outOfStock": true,
+        "hot": false,
+        "onSell": false,
+        "bestSellingProducts": true,
+        "newArrivalProducts": false,
+        "newArrival": false,
+        "reviews": [
+          {
+            "id": 13,
+            "ratings": 5,
+            "name": "James Anderson",
+            "feedback": "The very well-built theme, couldn't be happier with it. Can't wait for future updates to see what else they add-in.",
+            "authorImg": {
+              "id": 24,
+              "name": "user1.jpg",
+              "alternativeText": "",
+              "caption": "",
+              "width": 300,
+              "height": 300,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429096/thumbnail_user1_2f054f90ef.jpg",
+                  "hash": "thumbnail_user1_2f054f90ef",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_user1.jpg",
+                  "path": null,
+                  "size": 4.44,
+                  "width": 156,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_user1_2f054f90ef",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "user1_2f054f90ef",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 11.08,
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624429095/user1_2f054f90ef.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "user1_2f054f90ef",
+                "resource_type": "image"
+              },
+              "created_at": "2021-06-23T06:18:15.369Z",
+              "updated_at": "2021-06-23T06:18:15.389Z"
+            }
+          }
+        ],
+        "frontImg": {
+          "id": 7,
+          "name": "products3.jpg",
+          "alternativeText": "",
+          "caption": "",
+          "width": 860,
+          "height": 1092,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+              "hash": "large_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "large_products3.jpg",
+              "path": null,
+              "size": 67.24,
+              "width": 788,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "large_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+              "hash": "small_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "small_products3.jpg",
+              "path": null,
+              "size": 22.79,
+              "width": 394,
+              "height": 500,
+              "provider_metadata": {
+                "public_id": "small_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+              "hash": "medium_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "medium_products3.jpg",
+              "path": null,
+              "size": 43.06,
+              "width": 591,
+              "height": 750,
+              "provider_metadata": {
+                "public_id": "medium_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+              "hash": "thumbnail_products3_00c795c71b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_products3.jpg",
+              "path": null,
+              "size": 4.33,
+              "width": 123,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_products3_00c795c71b",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "products3_00c795c71b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 62.84,
+          "url": "assets/img/minerals/rhodochrosite.jpeg",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "products3_00c795c71b",
+            "resource_type": "image"
+          },
+          "created_at": "2021-06-23T05:38:52.209Z",
+          "updated_at": "2021-06-23T05:38:52.219Z"
+        },
+        "detailsImg": [
+          {
+            "id": 7,
+            "name": "products3.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 860,
+            "height": 1092,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426729/large_products3_00c795c71b.jpg",
+                "hash": "large_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "large_products3.jpg",
+                "path": null,
+                "size": 67.24,
+                "width": 788,
+                "height": 1000,
+                "provider_metadata": {
+                  "public_id": "large_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426733/small_products3_00c795c71b.jpg",
+                "hash": "small_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "small_products3.jpg",
+                "path": null,
+                "size": 22.79,
+                "width": 394,
+                "height": 500,
+                "provider_metadata": {
+                  "public_id": "small_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426731/medium_products3_00c795c71b.jpg",
+                "hash": "medium_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "medium_products3.jpg",
+                "path": null,
+                "size": 43.06,
+                "width": 591,
+                "height": 750,
+                "provider_metadata": {
+                  "public_id": "medium_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dbbfi0kuz/image/upload/v1624426727/thumbnail_products3_00c795c71b.jpg",
+                "hash": "thumbnail_products3_00c795c71b",
+                "mime": "image/jpeg",
+                "name": "thumbnail_products3.jpg",
+                "path": null,
+                "size": 4.33,
+                "width": 123,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_products3_00c795c71b",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "products3_00c795c71b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 62.84,
+            "url": "assets/img/minerals/rhodochrosite.jpeg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "products3_00c795c71b",
+              "resource_type": "image"
+            },
+            "created_at": "2021-06-23T05:38:52.209Z",
+            "updated_at": "2021-06-23T05:38:52.219Z"
+          }
+        ],
+        "orders": [
+
+        ],
+        "localizations": [
+
+        ]
+      }
+
+]
