@@ -3,11 +3,11 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-7">
-                <h2>Shop Left Sidebar</h2>
+                <h2>Shop By Category</h2>
             </div>
             <div class="col-lg-6 col-md-5">
                 <ul class="page-title-content">
-                    <li><a routerLink="/">Home</a></li>
+                    <li><a routerLink="/index-5">Home</a></li>
                     <li>Shop</li>
                 </ul>
             </div>
@@ -30,47 +30,8 @@
                     <div class="widget widget_categories">
                         <h3 class="widget-title"><span>Categories</span></h3>
                         <ul>
-                            <li><a routerLink="/shop-left-sidebar-1">Accessories</a></li>
-                            <li><a routerLink="/shop-left-sidebar-1">Men</a></li>
-                            <li><a routerLink="/shop-left-sidebar-1">Women</a></li>
-                            <li><a routerLink="/shop-left-sidebar-1">Shoe</a></li>
-                            <li><a routerLink="/shop-left-sidebar-1">Bag</a></li>
-                            <li><a routerLink="/shop-left-sidebar-1">Denim</a></li>
-                        </ul>
-                    </div>
-                    <div class="widget widget_colors">
-                        <h3 class="widget-title"><span>Filter By Color</span></h3>
-                        <ul>
-                            <li>
-                                <a routerLink="/shop-left-sidebar-1">
-                                    <span class="gray">Gray</span>
-                                    <span>Gray</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/shop-left-sidebar-1">
-                                    <span class="green">Green</span>
-                                    <span>Green</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/shop-left-sidebar-1">
-                                    <span class="red">Red</span>
-                                    <span>Red</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/shop-left-sidebar-1">
-                                    <span class="black">Black</span>
-                                    <span>Black</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a routerLink="/shop-left-sidebar-1">
-                                    <span class="brown">Brown</span>
-                                    <span>Brown</span>
-                                </a>
-                            </li>
+                            <li *ngFor="let content of categories">
+                                <a [routerLink]="['/shop-left-sidebar-1', content.category]">{{content.name}}</a>
                         </ul>
                     </div>
                     <div class="widget widget_price_filter">
@@ -78,73 +39,6 @@
                         <div class="collection_filter_by_price">
                             <ngx-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ngx-slider>
                         </div>
-                    </div>
-                    <div class="widget widget_vaxim_posts_thumb">
-                        <h3 class="widget-title"><span>Our Best Sellers</span></h3>
-                        <article class="item">
-                            <a routerLink="/products-details" class="thumb">
-                                <img src="assets/img/products/products1.jpg" alt="blog-image">
-                            </a>
-                            <div class="info">
-                                <h4 class="title"><a routerLink="/products-details">Cheeky woman leather jacket</a></h4>
-                                <div class="star-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <span class="price">$150.00</span>
-                            </div>
-                        </article>
-                        <article class="item">
-                            <a routerLink="/products-details" class="thumb">
-                                <img src="assets/img/products/products2.jpg" alt="blog-image">
-                            </a>
-                            <div class="info">
-                                <h4 class="title"><a routerLink="/products-details">Comfort man black hoodie</a></h4>
-                                <div class="star-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <span class="price">$150.00</span>
-                            </div>
-                        </article>
-                        <article class="item">
-                            <a routerLink="/products-details" class="thumb">
-                                <img src="assets/img/products/products3.jpg" alt="blog-image">
-                            </a>
-                            <div class="info">
-                                <h4 class="title"><a routerLink="/products-details">Trendy woman black blazer</a></h4>
-                                <div class="star-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <span class="price">$150.00</span>
-                            </div>
-                        </article>
-                        <article class="item">
-                            <a routerLink="/products-details" class="thumb">
-                                <img src="assets/img/products/products4.jpg" alt="blog-image">
-                            </a>
-                            <div class="info">
-                                <h4 class="title"><a routerLink="/products-details">Arctix womens essential</a></h4>
-                                <div class="star-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <span class="price">$150.00</span>
-                            </div>
-                        </article>
                     </div>
                     <div class="widget widget_follow_us">
                         <h3 class="widget-title"><span>Follow Us</span></h3>
@@ -190,17 +84,20 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="col-lg-6 col-md-6 col-sm-6" *ngFor="let content of products">
                         <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products1.jpg" alt="products-image">
+                            <a [routerLink]="['/products', content.slug]" class="d-block">
+                                <img [src]="content.frontImg.url" alt="products-image">
                             </a>
                             <ul class="products-button">
                                 <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
+                                    <button type="button" (click)="
+                                        triggerModal(modalData);
+                                        addToModal(content)
+                                    ">
                                         <i class="fas fa-search-plus"></i>
                                         <span class="tooltip-label">Quick View</span>
-                                    </a>
+                                    </button>
                                 </li>
                                 <li>
                                     <a routerLink="/compare">
@@ -217,392 +114,11 @@
                             </ul>
                             <span class="sale">SALE</span>
                             <div class="content">
-                                <h3><a routerLink="/products-details">Cheeky woman leather jacket</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
+                                <h3><a [routerLink]="['/products', content.slug]"> {{ content.title }}</a></h3>
+                                <button class="add-to-cart-btn" (click)="addToCart(content)">Add to cart <i
+                                        class="fas fa-cart-plus"></i></button>
                                 <div class="price">
-                                    <span class="new-price">$199.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products2.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Comfort man black hoodie</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="new-price">$150.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products3.jpg" alt="products-image">
-                            </a>
-                            <span class="out-of-stock">Out of Stock</span>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Trendy woman black blazer</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="old-price">$241.00</span>
-                                    <span class="new-price">$200.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products4.jpg" alt="products-image">
-                            </a>
-                            <span class="hot">HOT</span>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Arctix womens essential</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="new-price">$289.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products5.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Mesh lined snowboard</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="new-price">$158.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products6.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Pullover ecosmart hooded</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="old-price">$521.00</span>
-                                    <span class="new-price">$399.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products14.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Mesh lined snowboard</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="new-price">$158.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products15.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Pullover ecosmart hooded</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="old-price">$521.00</span>
-                                    <span class="new-price">$399.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products16.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <span class="sale">SALE</span>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Cheeky woman leather jacket</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="new-price">$199.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products8.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Comfort man black hoodie</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="new-price">$150.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products7.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <span class="sale">SALE</span>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Cheeky woman leather jacket</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="new-price">$199.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <a routerLink="/products-details" class="d-block">
-                                <img src="assets/img/products/products6.jpg" alt="products-image">
-                            </a>
-                            <ul class="products-button">
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
-                                        <i class="fas fa-search-plus"></i>
-                                        <span class="tooltip-label">Quick View</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/compare">
-                                        <i class="fas fa-exchange-alt"></i>
-                                        <span class="tooltip-label">Compare</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a routerLink="/wishlist">
-                                        <i class="far fa-heart"></i>
-                                        <span class="tooltip-label">Add to Wishlist</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="content">
-                                <h3><a routerLink="/products-details">Pullover ecosmart hooded</a></h3>
-                                <a routerLink="/cart" class="add-to-cart-btn">Add to cart <i class="fas fa-cart-plus"></i></a>
-                                <div class="price">
-                                    <span class="old-price">$521.00</span>
-                                    <span class="new-price">$399.00</span>
+                                    <span class="new-price"> {{ content.currencyType }}{{ content.currentPrice }}</span>
                                 </div>
                             </div>
                         </div>
@@ -610,12 +126,14 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="pagination-area">
                             <div class="nav-links">
-                                <a routerLink="/shop-left-sidebar-1" class="previous page-numbers" title="Next Page"><i class="fas fa-arrow-left"></i></a>
+                                <a routerLink="/shop-left-sidebar-1" class="previous page-numbers" title="Next Page"><i
+                                        class="fas fa-arrow-left"></i></a>
                                 <span class="page-numbers current">1</span>
                                 <a routerLink="/shop-left-sidebar-1" class="page-numbers">2</a>
                                 <a routerLink="/shop-left-sidebar-1" class="page-numbers">3</a>
                                 <a routerLink="/shop-left-sidebar-1" class="page-numbers">4</a>
-                                <a routerLink="/shop-left-sidebar-1" class="next page-numbers" title="Next Page"><i class="fas fa-arrow-right"></i></a>
+                                <a routerLink="/shop-left-sidebar-1" class="next page-numbers" title="Next Page"><i
+                                        class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -626,3 +144,54 @@
 </div>
 
 <app-subscribe></app-subscribe>
+
+<ng-template #modalData let-modal>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <i class="fas fa-times"></i>
+    </button>
+    <div class="modal-body" *ngIf="modalProduct">
+        <div class="row align-items-center"
+            *ngFor="let product of modalProduct | paginate: { itemsPerPage: 9, currentPage: shopGrid };">
+            <div class="col-lg-6 col-md-6">
+                <div class="image">
+                    <img [src]="product.frontImg.url" alt="image" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="content">
+                    <h3>{{ product.title }}</h3>
+                    <div class="price">
+                        <span class="new-price">
+                            {{ product.currencyType }}{{ product.currentPrice }}
+                        </span>
+                        <span class="old-price" *ngIf="product.oldPrice">
+                            {{ product.currencyType }}{{ product.oldPrice }}
+                        </span>
+                    </div>
+                    <p>{{ product.shortDesc }}</p>
+                    <ul class="products-info">
+                        <li>
+                            <span>Vendor:</span>
+                            <a routerLink="/shop-full-width-1">{{ product.vendor }}</a>
+                        </li>
+                        <li *ngIf="product.inStock">
+                            <span>Availability:</span>
+                            In stock
+                        </li>
+                        <li>
+                            <span>Categories:</span>
+                            <a routerLink="/shop-full-width-1">Hoodie</a>
+                        </li>
+                    </ul>
+                    <div class="products-add-to-cart">
+                        <button (click)="addToCart(product)" type="submit" class="default-btn">
+                            <i class="fas fa-shopping-bag"></i> ADD TO CART
+                        </button>
+                        <a routerLink="/wishlist" title="Add to Wishlist" class="add-to-wishlist-btn"><i
+                                class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>

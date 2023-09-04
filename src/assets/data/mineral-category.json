@@ -1,0 +1,18 @@
+[
+    {
+        "category": 1,
+        "name": "Polished"
+    },
+    {
+        "category": 2,
+        "name": "Raw"
+    },
+    {
+        "category": 3,
+        "name": "Specimen"
+    },
+    {
+        "category": 4,
+        "name": "Designed Creation"
+    }
+]

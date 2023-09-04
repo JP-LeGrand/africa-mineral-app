@@ -55,7 +55,7 @@ const routes: Routes = [
     {path: 'feedback', component: FeedbackPageComponent},
     {path: 'shop-full-width-1', component: ShopFullwidthPageOneComponent},
     {path: 'shop-full-width-2', component: ShopFullwidthPageTwoComponent},
-    {path: 'shop-left-sidebar-1', component: ShopLeftSidebarPageOneComponent},
+    {path: 'shop-left-sidebar-1/:category', component: ShopLeftSidebarPageOneComponent},
     {path: 'shop-left-sidebar-2', component: ShopLeftSidebarPageTwoComponent},
     {path: 'shop-right-sidebar-1', component: ShopRightSidebarPageOneComponent},
     {path: 'shop-right-sidebar-2', component: ShopRightSidebarPageTwoComponent},
