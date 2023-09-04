@@ -42,7 +42,7 @@ import { TermsConditionsPageComponent } from './components/pages/terms-condition
 import { WishlistPageComponent } from './components/pages/wishlist-page/wishlist-page.component';
 
 const routes: Routes = [
-    {path: '/', component: HomeDemoFiveComponent},
+    {path: '', component: HomeDemoFiveComponent},
     {path: 'index-1', component: HomeDemoOneComponent},
     {path: 'index-2', component: HomeDemoTwoComponent},
     {path: 'index-3', component: HomeDemoThreeComponent},
